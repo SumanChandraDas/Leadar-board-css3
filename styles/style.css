@@ -1,0 +1,57 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+/* common style  */
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 870px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 33px;
+}
+
+
+/* top player style  */
+.section-title {
+    color: #562EFF;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 24px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+hr {
+    height: 0px;
+    margin-top: 29px;
+}
